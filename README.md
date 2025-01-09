@@ -1,33 +1,38 @@
-# react-native-real-path
+# `react-native-real-path`
 
-convert content uri to real path in android
+A utility package to resolve real file paths from `content://` URIs on Android in React Native.
+
+This package is designed to help developers convert `content://` URIs, commonly used by Android content providers, into actual file system paths. It's particularly useful for accessing files in the device's storage from React Native apps.
 
 ## Installation
 
-```sh
+You can install the package using either `npm` or `yarn`:
+
+```bash
 npm install react-native-real-path
+# or
+yarn add react-native-real-path
 ```
 
-## Usage
+**Key Features:**
 
+- 🌐 **Android Only**
+- ⚡ **Lightweight Library**
+- 🚀 **Supports New Architectures (Turbo Modules)**
 
-```js
-import { multiply } from 'react-native-real-path';
+### Example:
 
-// ...
+```javascript
+import { getRealPath } from 'react-native-real-path';
+import { pickSingle } from 'react-native-document-picker';
 
-const result = multiply(3, 7);
+const result = await pickSingle();
+const realPath = getRealPath(result.uri);
+
+console.log(realPath); // Output: actual file system path or original URI
 ```
 
+### `getRealPath(path: string): string`
 
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-## License
-
-MIT
-
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+- **Input**: A string representing a file path or URI.
+- **Output**: A string representing the real file system path if the input is a `content://` URI, or the original path if not.
