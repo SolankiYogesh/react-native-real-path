@@ -1,4 +1,4 @@
-# `react-native-real-path`
+# `@sy/react-native-real-path`
 
 A utility package to resolve real file paths from `content://` URIs on Android in React Native.
 
@@ -9,9 +9,9 @@ This package is designed to help developers convert `content://` URIs, commonly 
 You can install the package using either `npm` or `yarn`:
 
 ```bash
-npm install react-native-real-path
+npm install @sy/react-native-real-path
 # or
-yarn add react-native-real-path
+yarn add @sy/react-native-real-path
 ```
 
 **Key Features:**
