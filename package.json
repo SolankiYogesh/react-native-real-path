@@ -1,6 +1,6 @@
 {
   "name": "@sy/react-native-real-path",
-  "version": "0.1.0",
+  "version": "0.0.9",
   "description": "convert content uri to real path in android",
   "source": "./src/index.ts",
   "main": "./lib/commonjs/index.js",
