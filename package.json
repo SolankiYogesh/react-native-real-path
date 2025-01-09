@@ -43,6 +43,12 @@
     "prepare": "bob build",
     "release": "release-it"
   },
+  "contributors": [
+    {
+      "name": "Yogesh Solanki",
+      "url": "https://github.com/SolankiYogesh"
+    }
+  ],
   "keywords": [
     "react-native",
     "android"
