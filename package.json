@@ -68,6 +68,7 @@
     "access": "public"
   },
   "devDependencies": {
+    "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.5.0",
     "@react-native-community/cli": "15.0.1",
@@ -76,6 +77,8 @@
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.44",
     "commitlint": "latest",
+    "commitlint-plugin-cleanfeet": "^0.1.2",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
     "del-cli": "^5.1.0",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
@@ -226,10 +229,5 @@
     "type": "turbo-module",
     "languages": "kotlin-objc",
     "version": "0.45.5"
-  },
-  "dependencies": {
-    "@commitlint/cli": "latest",
-    "commitlint-plugin-cleanfeet": "^0.1.2",
-    "conventional-changelog-conventionalcommits": "^8.0.0"
   }
 }
