@@ -64,7 +64,8 @@
   },
   "homepage": "https://github.com/SolankiYogesh/react-native-real-path#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@evilmartians/lefthook": "^1.5.0",
