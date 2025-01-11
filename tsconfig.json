@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@sy/react-native-real-path": ["./src/index"]
+      "react-native-actual-path": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
 import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
-import { getRealPath } from '@sy/react-native-real-path';
+import { getRealPath } from 'react-native-actual-path';
 import { pickSingle } from 'react-native-document-picker';
 
 export default function App() {
